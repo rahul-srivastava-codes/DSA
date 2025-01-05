@@ -1,0 +1,19 @@
+Lecture 171
+// Linked list
+Why linked list
+
+1) Problem with array -> size is fixed in case of dynamic memory alllocation and also space wastage, so we want variable size data structure
+2) Difference between both
+
+
+int a[5] -> inside stack
+int *p = new int[5]; -> inside heap
+
+What is node in DS?
+A node is a fundamental unit of a data structure that contains data and can link to other nodes
+We mostly create it in heap
+
+Lecture 172
+
+What is linked list?
+Collection of node which contains data and pointer(stores address) to next node
