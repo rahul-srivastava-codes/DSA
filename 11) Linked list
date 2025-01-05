@@ -17,3 +17,22 @@ Lecture 172
 
 What is linked list?
 Collection of node which contains data and pointer(stores address) to next node
+
+How node is created?
+
+struct Node{
+  int data;
+  struct Node *next;
+}
+struct Node *p ;
+p =  (struct Node*)malloc(sizeof(struct Node)) or p = new Node
+
+p-> data
+
+Lecture 173
+How we connect 2 nodes
+let second node be q
+then 
+1) q = p
+2) q = p->next
+3) p = p->next
