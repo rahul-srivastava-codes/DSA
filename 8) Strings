@@ -1,0 +1,24 @@
+Lecture 131
+
+since computer system works on binary number everything here is in numbers either word, number or signs
+ASCII -> American Standard Code for Information Interchange
+Ascii code for english language
+
+for defining we use
+char temp or char temp = 'A'; 
+temp = 'A' should be in sinngle quote and in memory 65 is stored
+printf("%c", temp) -> character
+printf("%d", temp) -> character code
+
+For array of character 
+char X[5] 
+char X[5] = { 'A', 'b', 'C', 'D', 'E')
+char X[5] = { 68.69,70,71,72)
+char X[5] = { 'A', 'b') and rest have garbage value and rest places kown as delimiter, null chaacter , \0
+to make string we have to add at last '\0' once character ends
+char X[] = { 'A', 'b', 'C', 'D', 'E')
+char X[5] = "john"
+printf("%s", name);
+
+scanf for one word
+getf for multiple words
