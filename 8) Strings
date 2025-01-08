@@ -21,4 +21,15 @@ char X[5] = "john"
 printf("%s", name);
 
 scanf for one word
-getf for multiple words
+getf  
+
+for multiple words finding length is shown below:
+int main(){
+char S[]= "Welcome"
+int i ;
+for (i=0; s[i] != "\0', i++){
+length++;
+}
+
+printf("%d", length or i)  
+}
