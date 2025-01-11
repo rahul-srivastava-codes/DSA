@@ -1,9 +1,16 @@
 What is recursion?
 Function calling itself is called recursion and inside loop there whill be condition.
 It runs in form of tree.
-if any instruction given before recursion function, it is called and order is 123
+if any instruction given before recursion function,and if it is called and order is 123
 else order is 321
 
 Lecture 47: Generalising the function
 if any instruction is before recursion function it is executed during calling time
 else if any instruction is after recursion function it is executed during returning time
+
+Lecture 48: How recursion uses stack
+Once  function is done ,it is deleted.side by side.
+No of call depends on the argument we pass.
+It is order of O(n) when it have n+1 calls
+
+Lecture 49: Time complexity
