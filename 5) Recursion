@@ -14,3 +14,12 @@ No of call depends on the argument we pass.
 It is order of O(n) when it have n+1 calls
 
 Lecture 49: Time complexity
+
+T(n) = {1               n=0}
+       {T(n-1) + 1               n>1}
+
+
+Lecture 53 : Types of recursion:
+Tail recursion-> if recursive call is last then it is called tail recursion.
+
+So for n > 1 we have time taken as t(n) = t(n-k) + n
