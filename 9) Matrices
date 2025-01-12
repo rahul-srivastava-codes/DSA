@@ -1,0 +1,8 @@
+Hey buddy we will learn today about matrices using array. So lets us
+
+Diagonal matrices -> having only diagonal matrices
+Condition is 
+M[i.j] = 0 if i!=j
+else other places have values
+
+Setting the function
