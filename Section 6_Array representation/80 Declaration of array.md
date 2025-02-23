@@ -6,4 +6,4 @@
 <p>int A[] = {2,5,7,8,9}; . </p>
 
 <p>Ways of accessing the element through index</p>
-<p>(A[2] or 2[A]) -> any of the way an individual can use</p>
+<p>(A[2] or 2[A] ||  *(A+2)) -> any of the way an individual can use</p>
