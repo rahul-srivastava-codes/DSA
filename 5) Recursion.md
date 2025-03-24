@@ -17,11 +17,14 @@ Now since memory is freed,and also return to program from where it started. *)
 
  Recursion is writing the same function again and again with body also refering to same content.
 space complexity is not constant and space efficicent due to call of functions
-Helpful in bigger problem into small problems.
+Helpful in bigger problem when you thing from perspective of small cases or breaking it into
+mini problems.
 
+Note: function is terminated at base condition
 
+writing recursion in formula is called recurrence relation.
 What is recursion?
-Function calling itself is called recursion and inside loop there whill be condition.
+Function calling itself is called recursion and inside loop there will be condition.
 It runs in form of tree.
 if any instruction given before recursion function,and if it is called and order is 123
 else order is 321
