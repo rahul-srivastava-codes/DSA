@@ -29,6 +29,7 @@ It runs in form of tree.
 if any instruction given before recursion function,and if it is called and order is 123
 else order is 321
 
+
 Lecture 47: Generalising the function
 if any instruction is before recursion function it is executed during calling time
 else if any instruction is after recursion function it is executed during returning time
@@ -48,3 +49,31 @@ Lecture 53 : Types of recursion:
 Tail recursion-> if recursive call is last then it is called tail recursion.
 
 So for n > 1 we have time taken as t(n) = t(n-k) + n
+
+How to perform recursion
+1) Break problem into simple and easy to understand format
+2) Write recursion relation if needed
+3) draw recursion tree
+4) about the tree
+5) see flow of function getting into stack
+6) focus on left tree call going into left left left left then right tree call then left right left rightleft right  left right then function done.
+7) Draw the tree and point us again and again using pen and paper
+8) returning the value know what to return
+
+execute fibbonaci series
+fibo(int n){
+if(n<2) return n;
+return fibo(n-1) + fibo(n-2);
+}
+
+Working with variables in recursion....
+1) in argument
+2) return type
+3) body of function
+
+Q 1) Binary search
+comparing in O(1)
+
+types of recureence relation
+1) linear
+2) divide and conquer
