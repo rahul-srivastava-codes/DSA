@@ -1,9 +1,19 @@
 Lecture 171
-// Linked list
+// Linked list (important)
 Why linked list
-
+Creating an array also refers to waste of memory, hence
+linked list is used so as it is pace efficient (although its vague statement to certain extent)
+A thing called node exist in LL.
 1) Problem with array -> size is fixed in case of dynamic memory alllocation and also space wastage, so we want variable size data structure
 2) Difference between both
+
+Example 
+1-> 2-> 4-> 6->8
+1 is head also called as reference varible 
+8 is tail 
+
+ALso keyword used to define ll in java is
+LinkedList<Integer> name = new LinkedList<>();
 
 
 int a[5] -> inside stack
