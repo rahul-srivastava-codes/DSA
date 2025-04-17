@@ -12,7 +12,10 @@ Example
 1 is head also called as reference varible 
 8 is tail 
 
-ALso keyword used to define ll in java is
+If we want to get the third element of the LL, then set head of LL to temp  and then iterate over 
+the  LL to get the element present in which index.
+
+Also keyword used to define ll in java is
 LinkedList<Integer> name = new LinkedList<>();
 
 
