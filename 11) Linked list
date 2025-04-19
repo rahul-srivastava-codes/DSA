@@ -19,33 +19,11 @@ Also keyword used to define ll in java is
 LinkedList<Integer> name = new LinkedList<>();
 
 
-int a[5] -> inside stack
-int *p = new int[5]; -> inside heap
+What is double linked list?
+Bro in linked list  you were going one way 
+but through this new Linked list , you can come backward to, but
+obvious you need one more node for back travelling
 
-What is node in DS?
-A node is a fundamental unit of a data structure that contains data and can link to other nodes
-We mostly create it in heap
+What is circular linked list?
 
-Lecture 172
-
-What is linked list?
-Collection of node which contains data and pointer(stores address) to next node
-
-How node is created?
-
-struct Node{
-  int data;
-  struct Node *next;
-}
-struct Node *p ;
-p =  (struct Node*)malloc(sizeof(struct Node)) or p = new Node
-
-p-> data
-
-Lecture 173
-How we connect 2 nodes
-let second node be q
-then 
-1) q = p
-2) q = p->next
-3) p = p->next
+ 
