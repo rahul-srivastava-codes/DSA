@@ -22,3 +22,11 @@ Properties
 3) sibling -> having same parent
 4) edge -> line connecting 2 nodes
 5) height -> max number of edges between 2 nodes
+
+Types of binary tree
+1) Complete binary tree -> All of them should be full or full from left to right
+2) full / Strict binary tree -> either 2 or 2 children for every node
+3) Perfect binary tree -> all levels are full
+4) height balanced -> avg height O(log n)
+5) skewed BT -> every tree have height O(n) like linked list
+6) ordered BT -> every node has some property  ex -> BST
