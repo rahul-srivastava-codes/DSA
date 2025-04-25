@@ -7,7 +7,7 @@ and 12 goes right side of 10
 Limitation
 1) Inefficient for sorted data
 2) O(N) time in sorted case
-
+ n
 Creating tree should start by creating node
 class node{
 int val;
