@@ -17,7 +17,7 @@ Is it similar to DLL , yes you got it.
 Now combine multiple nodes and you got tree
 
 Properties
-1) size ->> total number of nodes
+1) size -> total number of nodes
 2) child & parent
 3) sibling -> having same parent
 4) edge -> line connecting 2 nodes
@@ -30,3 +30,13 @@ Types of binary tree
 4) height balanced -> avg height O(log n)
 5) skewed BT -> every tree have height O(n) like linked list
 6) ordered BT -> every node has some property  ex -> BST
+
+properties
+1) Perfect BT  height = h
+total nodes = 2^(h+1) - 1
+2) Total number of leaf nodes in perfect BT = 2^h - 1
+
+
+Implementation
+1) Linnked representation
+2) sequential -> using array (heap is implemented using this)
